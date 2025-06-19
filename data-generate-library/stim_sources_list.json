@@ -1,0 +1,19 @@
+[
+        ("to_sensop_netstim_1", "NetStim", 40, 0.8),
+        ("to_alpha1_netstim_1", "NetStim", 15, 0.2),
+        ("to_alpha1_netstim_2", "NetStim", 15, 0.2),
+        ("to_alpha1_netstim_3", "NetStim", 20, 0.5),
+        ("to_alpha1_netstim_4", "NetStim", 10, 0.6),
+        ("to_alpha1_netstim_5", "NetStim", 10, 0.6),
+        ("to_alpha2_netstim", "NetStim", 15, 0.1),
+        ("netstim_back_1", "NetStim", 10, 0.4),
+        ("netstim_back_2", "NetStim", 10, 0.4),
+        ("simp_netstim_1", "NetStim", 10, 0.1),
+        ("simp_netstim_2", "NetStim", 7, 0.4),
+        ("sensor_netstim_2", "NetStim", 40, 0.8),
+        ("netstim_leg_1", "NetStim", 20, 0.4),
+        ("netstim_leg_2", "NetStim", 20, 0.4),
+        ("netstim_leg_3", "NetStim", 20, 0.4),
+        ("sensor_netstim_3", "NetStim", 40, 0.8)
+
+    ]

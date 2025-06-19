@@ -1,0 +1,23 @@
+ [
+        ("sensory_to_PSCT_C1C8_l", "sensory_neuron_C1C8_l", "PSCT_C1C8_l_p", 0.8, 0.2, "dist_3D/(30 * 1000)", "AMPA"),
+        ("sensory_to_PSCT_C1C8_r", "sensory_neuron_C1C8_r", "PSCT_C1C8_r", 0.8, 0.2, "dist_3D/(30 * 1000)", "AMPA"),
+        ("sensory_neuron_to_exc_C1C8_r", "sensory_neuron_C1C8_r", "V_Interneuron_C1C8_r", 0.6, 0.2, "dist_3D/(5 * 1000)", "exc"),
+        ("sensory_neuron_to_exc_C1C8_l", "sensory_neuron_C1C8_l", "V_Interneuron_C1C8_l", 0.6, 0.2, "dist_3D/(5 * 1000)", "exc"),
+        ("exc_to_stt_C1C8_r", "V_Interneuron_C1C8_r", "spino_thalamic_C1C8_l", 0.7, 0.1, "dist_3D/(5 * 1000)", "AMPA"),
+        ("exc_to_stt_C1C8_l", "V_Interneuron_C1C8_l", "spino_thalamic_C1C8_r", 0.7, 0.1, "dist_3D/(5 * 1000)", "AMPA"),
+        ("sensory_to_PSCT_T1T12_l", "sensory_neuron_T1T12_l", "PSCT_T1T12_l_p", 0.8, 0.2, "dist_3D/(30 * 1000)", "AMPA"),
+        ("sensory_to_PSCT_T1T12_r", "sensory_neuron_T1T12_r", "PSCT_T1T12_r", 0.8, 0.2, "dist_3D/(30 * 1000)", "AMPA"),
+        ("sensory_neuron_to_exc_T1T12_r", "sensory_neuron_T1T12_r", "V_Interneuron_T1T12_r", 0.6, 0.2, "dist_3D/(5 * 1000)", "exc"),
+        ("sensory_neuron_to_exc_T1T12_l", "sensory_neuron_T1T12_l",  "V_Interneuron_T1T12_l", 0.6, 0.2, "dist_3D/(5 * 1000)", "exc"),
+        ("exc_to_stt_T1T12_r", "V_Interneuron_T1T12_r", "spino_thalamic_T1T12_l", 0.7, 0.1, "dist_3D/(5 * 1000)", "AMPA"),
+        ("exc_to_stt_T1T12_l", "V_Interneuron_T1T12_l", "spino_thalamic_T1T12_r", 0.7, 0.1, "dist_3D/(5 * 1000)", "AMPA"),
+        ("sensory_to_PSCT_L1L6_l", "sensory_neuron_L1L6_l", "PSCT_L1L6_l_p", 0.8, 0.2, "dist_3D/(30 * 1000)", "AMPA"),
+        ("sensory_to_PSCT_L1L6_r", "sensory_neuron_L1L6_r", "PSCT_L1L6_r", 0.8, 0.2, "dist_3D/(30 * 1000)", "AMPA"),
+        ("sensory_neuron_to_exc_L1L6_r", "sensory_neuron_L1L6_r", "V_Interneuron_L1L6_r", 0.6, 0.2, "dist_3D/(5 * 1000)", "exc"),
+        ("sensory_neuron_to_exc_L1L6_l", "sensory_neuron_L1L6_l", "V_Interneuron_L1L6_l", 0.6, 0.2, "dist_3D/(5 * 1000)", "exc"),
+        ("exc_to_stt_L1L6_r", "V_Interneuron_L1L6_r", "spino_thalamic_L1L6_l", 0.7, 0.1, "dist_3D/(5 * 1000)", "AMPA"),
+        ("exc_to_stt_L1L6_l", "V_Interneuron_L1L6_l", "spino_thalamic_L1L6_r", 0.7, 0.1, "dist_3D/(5 * 1000)", "AMPA"),
+        ("inh_to_stt_L1L6_r", "T_Interneuron_L1L6_r", "spino_thalamic_L1L6_l", 0.5, 0.08, "dist_3D/(5 * 1000)", "inh"),
+        ("inh_to_stt_L1L6_l", "T_Interneuron_L1L6_l", "spino_thalamic_L1L6_r", 0.5, 0.08, "dist_3D/(5 * 1000)", "inh")
+
+]
